@@ -34,7 +34,7 @@ elif(mes=='octubre'or mes== 'noviembre' or mes=='diciembre'):
 else:
     print("error, ingresa un mes valido..")
 
-    #ejemplo3 edades
+#ejemplo3 edades
 
 edad=float(input("digite edad: "))
 if(edad >=0 and edad<=14):
@@ -48,7 +48,7 @@ elif(edad >=60) :
 else:
     print ("error al digitar su edad")
 
-    #ejemplo4 operador ternario
+#ejemplo4 operador ternario
 parametro=True
 
 if (parametro==True):
@@ -56,9 +56,10 @@ if (parametro==True):
     else:
         print("el parametro es falso")'''
 
-    #operador ternario
+#operador ternario
 parametro=False
 print("el parametro es verdadero") if parametro ==True else print("el parametro es falso")
+
 
 
 
