@@ -1,5 +1,5 @@
 
-# ejemplo 1 hidroituango
+'''# ejemplo 1 hidroituango
 
 NivelAgua=float(input("digita el nivel del agua: "))
 
@@ -47,4 +47,18 @@ elif(edad >=60) :
     print("su edad es adulto mayor")  
 else:
     print ("error al digitar su edad")
+
+    #ejemplo4 operador ternario
+parametro=True
+
+if (parametro==True):
+    print("el parametro es verdadero")
+    else:
+        print("el parametro es falso")'''
+
+    #operador ternario
+parametro=False
+print("el parametro es verdadero") if parametro ==True else print("el parametro es falso")
+
+
 
